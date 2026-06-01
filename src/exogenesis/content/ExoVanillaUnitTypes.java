@@ -6408,7 +6408,7 @@ public class ExoVanillaUnitTypes {
                         effectChance = 0.03f;
                     }}
             );
-            ammoType = new ItemAmmoType(Items.thorium);
+            //ammoType = new ItemAmmoType(Items.thorium);
 
             weapons.add(new Weapon(){{
                 shootOnDeath = true;
