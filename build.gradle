@@ -19,7 +19,7 @@ java{
 
 ext{
     //the build number that this mod is made for
-    mindustryVersion = '154'
+    mindustryVersion = 'caf89c8fee'
     jabelVersion = "93fde537c7"
     //windows sucks
     isWindows = System.getProperty("os.name").toLowerCase().contains("windows")
@@ -36,8 +36,8 @@ allprojects{
 }
 
 dependencies{
-    compileOnly "com.github.Anuken.Arc:arc-core:154"
-    compileOnly "com.github.Anuken.Mindustry:core:154"
+    compileOnly "com.github.Anuken.Arc:arc-core:v154"
+    compileOnly "com.github.Anuken.Mindustry:core:v154"
 
     annotationProcessor "com.github.Anuken:jabel:$jabelVersion"
 }
